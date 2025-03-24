@@ -1,0 +1,179 @@
+/* ========== Apply the animated neon gradient background to all pages ========== */
+body {
+    background: linear-gradient(45deg, #ff00ff, #00ffcc, #00ccff, #ff00cc);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Background animation */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* ========== General styling for headings and paragraphs ========== */
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.3);
+    max-width: 80%;
+}
+
+/* ========== Styling for navigation menu ========== */
+nav {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ff00ff;
+}
+
+/* ========== Styling for images on all pages ========== */
+.page-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ========== Styling for the "Load Items" button ========== */
+button {
+    background-color: #00ccff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff00ff;
+    transform: scale(1.1);
+}
+
+/* ========== Styling for the items container ========== */
+#itemsList {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    max-width: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Individual item styling */
+.item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Item images */
+.item img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+/* ========== Styling for the contact form ========== */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #00ccff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #ff00ff;
+}
+
+/* ========== Responsive Design ========== */
+@media (max-width: 768px) {
+    #itemsList {
+        width: 90%;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .page-image {
+        max-width: 90%;
+    }
+
+    form {
+        width: 95%;
+    }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "MacBook Pro 14-inch",
+    "price": "1,999.00",
+    "description": "Apple M3 Pro chip, 14-inch Liquid Retina XDR display, 16GB RAM, 512GB SSD.",
+    "imageUrl": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef"
+  },
+  {
+    "name": "MacBook Air 13-inch",
+    "price": "1,099.00",
+    "description": "Apple M2 chip, 13-inch Liquid Retina display, 8GB RAM, 256GB SSD.",
+    "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+  },
+  {
+    "name": "iMac 24-inch",
+    "price": "1,299.00",
+    "description": "Apple M3 chip, 24-inch 4.5K Retina display, 8GB RAM, 256GB SSD.",
+    "imageUrl": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+  },
+  {
+    "name": "Apple Magic Mouse",
+    "price": "79.00",
+    "description": "Wireless and rechargeable mouse with a multi-touch surface.",
+    "imageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MMMQ3?wid=532&hei=582&fmt=jpeg&qlt=95&.v=1645138480630"
+  },
+  {
+    "name": "Apple Magic Keyboard",
+    "price": "99.00",
+    "description": "Wireless keyboard with a sleek, low-profile design and rechargeable battery.",
+    "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+  },
+  {
+    "name": "AirPods Pro (2nd Gen)",
+    "price": "249.00",
+    "description": "Active Noise Cancellation, Transparency mode, and Adaptive EQ for immersive sound.",
+    "imageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MTJV3?wid=532&hei=582&fmt=jpeg&qlt=95&.v=1693006700084"
+  }
+]
